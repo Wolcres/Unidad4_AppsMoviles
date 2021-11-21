@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:autoPlay="true"
+        app:autoPlayDelay="3000">
+
+    </org.imaginativeworld.whynotimagecarousel.ImageCarousel>
+
+    <ImageButton
+        android:id="@+id/proximamente"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cine"
+        />
+
+    <ImageButton
+        android:id="@+id/reserva"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/reservado_n"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-169dp"/>
+
+</LinearLayout>
