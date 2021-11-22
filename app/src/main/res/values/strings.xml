@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Reserva Cine</string>
+
+
+
+
+    <string name="instructions">Selecciona una pelicula</string>
+    <string name="encanto">Encanto</string>
+    <string name="clifford">Cliford</string>
+    <string name="resident">Resident Evil</string>
+    <string name="spiderman">Spiderman No Way Home</string>
+    <string name="cazafantasmas">Cazafantasmas</string>
+    <string name="dune">Dune</string>
+    <string name="reseña1"> Título </string>
+    <string name="reseña2"> Director </string>
+    <string name="reseña3"> Actores </string>
+    <string name="reseña4"> Género </string>
+    <string name="tituloencanto"> Encanto </string>
+    <string name="directorencanto"> Director: Byron Howard</string>
+    <string name="actoresencanto">Actores: Stephanie Beatriz, María Cecilia Botero  </string>
+    <string name="generoencanto">Género: Animación </string>
+    <string name="tituloclifford"> Clifford </string>
+    <string name="directorclifford">Director: Walt Becker </string>
+    <string name="actoresclifford">Actores: Jack Whitehall, Darby Camp</string>
+    <string name="generoclifford">Género: Aventura </string>
+    <string name="tituloresident"> Resident Evil</string>
+    <string name="directorresident">Director: Johannes Roberts</string>
+    <string name="actoresresident">Actores: Kaya Scodelario, Hannah John-Kamen </string>
+    <string name="generoresident">Género: Acción </string>
+    <string name="titulospiderman"> Spiderman No Way Home</string>
+    <string name="directorspiderman">Director: Jon Watts</string>
+    <string name="actoresspiderman">Actores: Tom Holland, Zendaya, Benedict Cumberbatch </string>
+    <string name="generospiderman">Género: Cine de superhéroes </string>
+    <string name="titulocazafantasmas"> Caza Fantasmas </string>
+    <string name="directorcazafantasmas">Director: Jason Reitman</string>
+    <string name="actorescazafantasmas">Actores: Mckenna Grace, Finn Wolfhard </string>
+    <string name="generocazafantasmas">Género: Aventura </string>
+    <string name="titulodune">Dune</string>
+    <string name="directordune">Director: Denis Villeneuve </string>
+    <string name="actoresdune">Actores: Timothée Chalamet, Rebecca Ferguson, Zendaya</string>
+    <string name="generodune">Género: Ciencia Ficción </string>
 </resources>
