@@ -46,5 +46,14 @@
 
         app:srcCompat="@mipmap/cine" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        android:layout_marginLeft="265dp"
+        android:textColor="@color/white"
+        android:text="Créditos" />
+
 
 </RelativeLayout>

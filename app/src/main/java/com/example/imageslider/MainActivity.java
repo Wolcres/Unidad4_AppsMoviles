@@ -9,6 +9,7 @@ import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnima
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     R.drawable.four,
     //R.drawable.five,
     R.drawable.six};
+    private Button b;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
         sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
         sliderView.startAutoCycle();
 
+        b = (Button) findViewById(R.id.button);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),MainActivity3.class));
+            }
+        });
+
     }
 
     public void Cartelera(View view){
@@ -42,5 +52,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Cartelera);
 
     }
+
+    public void Creditos(View view){
+
+        Intent Creditos = new Intent(this, MainActivity3.class);
+        startActivity(Creditos);
+
+    }
+
+
 
 }
