@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
     tools:context=".MainActivity">
 
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/image_slider"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="350dp"
         app:sliderAnimationDuration="600"
         app:sliderAutoCycleDirection="back_and_forth"
         app:sliderAutoCycleEnabled="true"
@@ -29,8 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/image_slider"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-
+        android:layout_marginTop="00dp"
+        android:text="CINEMA PREMIUM"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="40sp" />
 
@@ -39,8 +41,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="400dp"
         android:onClick="Cartelera"
+
         app:srcCompat="@mipmap/cine" />
 
 

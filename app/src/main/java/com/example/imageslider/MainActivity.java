@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     R.drawable.two,
     R.drawable.three,
     R.drawable.four,
-    R.drawable.five,
+    //R.drawable.five,
     R.drawable.six};
 
     @Override
