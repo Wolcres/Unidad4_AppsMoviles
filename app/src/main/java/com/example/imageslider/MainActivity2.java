@@ -45,6 +45,7 @@ public class MainActivity2 extends AppCompatActivity implements  View.OnClickLis
         tituloTextView = (TextView) findViewById(R.id.titulo);
         directorTextView = (TextView) findViewById(R.id.director);
         generoTextView = (TextView) findViewById(R.id.genero);
+        actoresTextView = (TextView) findViewById(R.id.actores);
 
 
         Button buttonEncanto = (Button) findViewById(R.id.encanto_button);
@@ -127,9 +128,9 @@ public class MainActivity2 extends AppCompatActivity implements  View.OnClickLis
                 imageId = 0;
         }
 
-        if (imageId != 0) {
+       // if (imageId != 0) {
             movieImageView.setImageDrawable(ContextCompat.getDrawable(this, imageId));
-        }
+        //}
 
     }
 
